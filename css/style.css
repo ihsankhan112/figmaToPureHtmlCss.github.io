@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+.bgimg{
+    background-image: url('../images/josh-rose-trYl7JYATH0-unsplash.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 907px;
+}
+
+.maintext p{
+    font-size:135px:
+}
+
+
+.hearderset{
+    padding-top: 250px;
+    box-sizing:border-box;
+}
+.hearderset p{
+ font-size:2rem;
+}
+
+
+.nav_style {
+    background:#fff;
+    box-shadow:0 50px 30px 0 rgba(0, 0, 0, 0.15) ;
+}
+
+.navbar{
+    background: #366166;
+}
+
+.navbar-nav{
+    /* margin-left: 700px; */
+    background: #366166;
+
+}
+
+
+.navbar-nav li a {
+    text-transform:uppercase;
+    font-size: 18px;
+    font-weight: 700px;
+    letter-spacing: 2px;
+    color:#fff;
+    position: relative;
+
+}
+
+.navbar-nav li a:before {
+   content:'';
+   position:absolute;
+   top: 100px;
+   bottom: 0px;
+   width: 0%;
+   height: 4%;
+   background:#fff;
+   ;
+   transition: all 0.3s linear;
+   margin-top: -60px;
+}
+.navbar-toggler{
+    text-white;
+}
+
+.navbar-nav li a:hover:before{
+       width: 80%;
+   }
+   .navbar-nav li a:{
+       color:#fff;
+   }
+
+.navbar-nav li a:hover{
+   color:#fff !important;
+}
+
+.navbar-nav li .active{
+   color:#fff !important;
+}
+   @media (max-width:998px){
+       .navbar-nav{
+           margin-top: 44px !important;
+           text-align: center !important;
+       }
+       .navbar-nav li a:hover:before{
+           width: 0%;
+       }
+   } 
+
+
+    /* header style css */
+    .header_text{
+        font-size: 26px;
+        color:#608783;
+    }
+
+
+    @media screen and (max-width:860px) {
+        .textcontainer p{
+            font-size: 20px !important;
+        }
+    }
+
+    @media (max-width:460px) {
+        .textcontainer p{
+            font-size: 20px !important;
+        }
+
+    }
+
+    .whatwedo h3{
+        color:#608783 ;
+
+    }
+
+    @media screen and (max-width:960px) {
+        .whattodoabout a {
+            font-size:15px !important;
+        }
+
+        .imgfol img{
+            width:204px;
+            height:200px'
+            object-fit:cover;
+        }
+    }
+
+    @media screen and (max-width:860px) {
+        .whattodoabout {
+           text-align: center !important;
+        }
+        .whatwedo {
+            text-align: center !important;
+         }
+         .contact_section{
+            text-align: center !important;
+         }
+    }
+
+    .button {
+        background-color: #608783; 
+        border: none;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius:4px;
+      }
+
+
+
+    .whattodoabout{
+        margin-top:60px;
+    }
+
+    .whattodoabout a{
+        margin-top: 40px;
+        color:#608783 ;
+        text-decoration: none;
+        text-transform:uppercase;
+        font-size: 20px;
+        font-weight: 800px;
+        letter-spacing: 4px;
+        padding:10px;
+    }
+    .bgimg a{
+        color:#fff;
+    }
+
+
+  .whatwedo{
+    margin-top:150px; 
+    margin-bottom:100px;
+}
+
+.contact_me1{
+    Background:#2D3839;
+    color: #fff;
+    position:relative;
+    
+}
+
+.footerlink{
+    color:#608783 ;
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    padding:10px;
+}
+.footerlink a{
+    color:#608783 ;
+    text-decoration: none;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    padding:10px;
+}
+
+
+
+
+
